@@ -39,12 +39,12 @@ ENV IDF_TOOLS_PATH=/opt/esp
 
 RUN echo IDF_CHECKOUT_REF=$IDF_CHECKOUT_REF IDF_CLONE_BRANCH_OR_TAG=$IDF_CLONE_BRANCH_OR_TAG && \
     git clone --recursive \
-    ${IDF_CLONE_BRANCH_OR_TAG:+-b $IDF_CLONE_BRANCH_OR_TAG} \
-    $IDF_CLONE_URL $IDF_PATH && \
+        ${IDF_CLONE_BRANCH_OR_TAG:+-b $IDF_CLONE_BRANCH_OR_TAG} \
+        $IDF_CLONE_URL $IDF_PATH && \
     if [ -n "$IDF_CHECKOUT_REF" ]; then \
-    cd $IDF_PATH && \
-    git checkout $IDF_CHECKOUT_REF && \
-    git submodule update --init --recursive; \
+        cd $IDF_PATH && \
+        git checkout $IDF_CHECKOUT_REF && \
+        git submodule update --init --recursive; \
     fi
 
 RUN cd $IDF_PATH \
