@@ -1,4 +1,4 @@
-FROM tschaffter/cxx-ci:latest
+FROM tschaffter/cxx-ci:1.0.0-beta.5
 
 LABEL maintainer="thomas.schaffter@gmail.com"
 
