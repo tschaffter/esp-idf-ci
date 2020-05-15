@@ -1,4 +1,4 @@
-FROM tschaffter/cxx-ci:1.0.0-beta.5
+FROM tschaffter/cxx-ci:1.0.0-beta.6
 
 LABEL maintainer="thomas.schaffter@gmail.com"
 
@@ -7,15 +7,16 @@ RUN apt-get update -qq -y && apt-get install -qq -y \
     flex \
     bison \
     gperf \
-    python \
-    python-pip \
-    python-setuptools \
-    python-serial \
-    python-click \
-    python-cryptography \
-    python-future \
-    python-pyparsing \
-    python-pyelftools \
+    python3.9-dev \
+    python3-setuptools \
+    python3-serial \
+    python3-click \
+    python3-cryptography \
+    python3-future \
+    python3-pyparsing \
+    python3-pyelftools \
+    python3-distutils \
+    python3.9-distutils \
     ccache \
     libffi-dev \
     libssl-dev \
