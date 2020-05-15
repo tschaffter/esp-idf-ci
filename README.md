@@ -6,13 +6,14 @@ CXX build and test environment
 
 ## Docker image
 
-https://hub.docker.com/repository/docker/tschaffter/esp-idf-ci
+- [tschaffter/esp-idf-ci](https://hub.docker.com/repository/docker/tschaffter/esp-idf-ci)
 
 ## Related open source projects
 
 Projects | Description
 ----------|--------------|
 [tschaffter/cxx-ci](https://github.com/tschaffter/cxx-ci.git) | CXX build and test environment
+[tschaffter/esp-idf-ci](https://github.com/tschaffter/esp-idf-ci.git) | ESP-IDF build and test environment
 
 ## Contributing change
 
