@@ -1,6 +1,6 @@
 # esp-idf-ci
 
-![Docker Image CI](https://github.com/tschaffter/esp-idf-ci/workflows/Docker%20Image%20CI/badge.svg)
+[![Docker Image CI](https://github.com/tschaffter/esp-idf-ci/workflows/Docker%20Image%20CI/badge.svg)](https://hub.docker.com/repository/docker/tschaffter/esp-idf-ci)
 
 CXX build and test environment
 
