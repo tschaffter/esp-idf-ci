@@ -2,7 +2,7 @@
 
 [![Docker Image CI](https://github.com/tschaffter/esp-idf-ci/workflows/Docker%20Image%20CI/badge.svg)](https://hub.docker.com/repository/docker/tschaffter/esp-idf-ci)
 
-CXX build and test environment
+ESP-IDF build and test environment
 
 ## Docker image
 
